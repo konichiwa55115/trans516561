@@ -2,7 +2,7 @@
 #Must Subscribe On YouTube @LazyDeveloperr
 # Python Based Docker
 # Python Based Docker
-
+FROM python:3.9-bullseye
 # Installing Packages
 RUN apt-get install python3.9
 RUN apt update && apt upgrade -y
